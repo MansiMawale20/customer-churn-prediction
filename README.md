@@ -1,35 +1,45 @@
 # Customer Churn Prediction
 
-## 📌 Project Overview
-This project predicts whether a customer will leave a service (churn) using machine learning techniques.
+##  Project Overview
 
-## 🎯 Objective
-To help businesses identify customers at risk of leaving and take preventive actions.
+This project predicts whether a customer will leave a service (churn) using machine learning.
 
-## 📊 Dataset
-- Telecom customer dataset
-- Features include tenure, monthly charges, contract type, etc.
+##  Objective
 
-## ⚙️ Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+To help businesses identify customers who are likely to leave and take preventive actions.
 
-## 🔍 Process
+## Dataset
+
+* Telco Customer Dataset
+* Contains customer details like gender, tenure, monthly charges, etc.
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib / Seaborn
+
+##  Steps Involved
+
 1. Data Cleaning
 2. Exploratory Data Analysis (EDA)
-3. Model Training (Random Forest)
-4. Model Evaluation
+3. Feature Encoding
+4. Model Building
+5. Model Evaluation
 
-## 📈 Evaluation Metrics
-- Accuracy
-- Recall
-- ROC-AUC Score
+## Models Used
 
-## 🚀 Result
-Accuracy: 79%  
-ROC-AUC: 0.69  
+* Logistic Regression
+* Decision Tree
+* Random Forest
 
-## 📌 Conclusion
-The model helps in predicting customer churn effectively and provides useful business insights.
+##  Result
+
+Model predicts whether customer will churn or not with good accuracy.
+
+##  Future Improvements
+
+* Deploy using Streamlit
+* Improve accuracy using tuning
