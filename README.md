@@ -43,3 +43,5 @@ Model predicts whether customer will churn or not with good accuracy.
 
 * Deploy using Streamlit
 * Improve accuracy using tuning
+  ## 📷 Output
+![Output](image.png)
